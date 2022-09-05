@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className={styles.container}>
       
       <h1>Homepage</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit voluptas quidem exercitationem. Ratione nemo et fuga modi molestiae dolorem, minima quasi, ducimus unde asperiores aliquid cumque minus, error nihil?</p>
