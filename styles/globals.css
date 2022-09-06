@@ -46,3 +46,14 @@ footer {
 footer a {
   margin-left: 12px;
 }
+
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
