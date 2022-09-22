@@ -1,13 +1,18 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
+    <>
+    <Head> 
+      <title> Ninja List | Home </title>
+      <meta name='keywords' content='about'></meta>
+      </Head>
     <div>
       
       <h1 className={styles.title}>Homepage</h1>
@@ -16,6 +21,7 @@ const Home: NextPage = () => {
       <Link href="/ninjas"><a className={styles.btn}>See Ninja Listing</a></Link>
       
     </div>
+    </>
   )
 }
 
