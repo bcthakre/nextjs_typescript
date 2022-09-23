@@ -6,13 +6,13 @@ const NotFound = () => {
 
     const router = useRouter() ;
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        setTimeout(() => {
-            router.push('/')
-        }, 6000)
+    //     setTimeout(() => {
+    //         router.push('/')
+    //     }, 6000)
 
-    },[router])
+    // },[router])
 
     return (
         <div className="not-found">
